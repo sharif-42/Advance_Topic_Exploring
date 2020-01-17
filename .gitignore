@@ -1,0 +1,14 @@
+media
+venv
+.venv
+.ipynb_checkpoints
+rebuild.sh
+
+# Pycharm Related
+.idea
+*.pyc
+.pyc
+__pycache__/
+
+# Databases
+db.sqlite3

@@ -17,6 +17,8 @@ class File:
             for lines in file_lines:
                 print(lines)
 
+            file.close()
+
         except FileNotFoundError:
             print("No File Named 'test.txt'")
 
